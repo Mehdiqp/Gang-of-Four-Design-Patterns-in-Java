@@ -1,4 +1,7 @@
-package com.company.structural.adapter.model;
+package com.company.structural.adapter;
+
+import com.company.structural.adapter.model.User;
+import com.company.structural.adapter.model.UserDTO;
 
 import java.util.Date;
 
@@ -11,9 +14,6 @@ public class UserDTOAdapter extends User {
     //chon mikha
     public UserDTOAdapter(UserDTO userDTO) {
         this.userDTO = userDTO;
-        System.out.println("----------------------");
-        System.out.println(userDTO);
-        System.out.println("----------------------");
     }
 
 

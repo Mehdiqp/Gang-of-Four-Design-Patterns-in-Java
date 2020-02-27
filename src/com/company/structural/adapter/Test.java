@@ -2,7 +2,6 @@ package com.company.structural.adapter;
 
 import com.company.structural.adapter.model.User;
 import com.company.structural.adapter.model.UserDTO;
-import com.company.structural.adapter.model.UserDTOAdapter;
 
 import java.util.Date;
 
@@ -16,6 +15,7 @@ public class Test {
 
         //hala sout migirim bebin
         System.out.println(user);
+        //User{id=1, username='username', firsName='fullname', lastName='fullname', birthDate=Thu Dec 11 17:21:58 IRST 2022}
 
     }
 }
