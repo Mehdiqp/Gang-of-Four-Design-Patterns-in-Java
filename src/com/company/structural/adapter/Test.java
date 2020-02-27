@@ -5,6 +5,8 @@ import com.company.structural.adapter.model.UserDTO;
 
 import java.util.Date;
 
+
+//ye joraei mishe gof kar karde adapter mese converter hastesh faghat ma to adapter az inheritance estefade mikonim
 public class Test {
     public static void main(String[] args) {
         UserDTO userDTO = new UserDTO(1L, "fullname", "username", new Date());
