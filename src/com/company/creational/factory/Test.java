@@ -1,10 +1,9 @@
-package com.company.factory;
+package com.company.creational.factory;
 
-import com.company.factory.model.Boy;
-import com.company.factory.model.Other;
-import com.company.factory.model.User;
+import com.company.creational.factory.model.Boy;
+import com.company.creational.factory.model.Other;
 
-public class Mainemon {
+public class Test {
     public static void main(String[] args) throws Exception {
         UserFactoryImpl userFactory = new UserFactoryImpl();
         Boy boyemon = (Boy) userFactory.createUser(UserFactory.UserType.BOY);

@@ -1,4 +1,4 @@
-package com.company.factory.model;
+package com.company.creational.factory.model;
 
 public class Other extends User {
     private String otherInteresting;

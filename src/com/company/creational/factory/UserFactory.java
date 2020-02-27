@@ -1,6 +1,6 @@
-package com.company.factory;
+package com.company.creational.factory;
 
-import com.company.factory.model.User;
+import com.company.creational.factory.model.User;
 
 public interface UserFactory {
 

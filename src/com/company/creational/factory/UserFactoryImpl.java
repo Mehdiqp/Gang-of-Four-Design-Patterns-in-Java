@@ -1,10 +1,10 @@
-package com.company.factory;
+package com.company.creational.factory;
 
-import com.company.factory.exception.UserFactoryException;
-import com.company.factory.model.Boy;
-import com.company.factory.model.Girl;
-import com.company.factory.model.Other;
-import com.company.factory.model.User;
+import com.company.creational.factory.exception.UserFactoryException;
+import com.company.creational.factory.model.Boy;
+import com.company.creational.factory.model.Girl;
+import com.company.creational.factory.model.Other;
+import com.company.creational.factory.model.User;
 
 public class UserFactoryImpl implements UserFactory {
     @Override

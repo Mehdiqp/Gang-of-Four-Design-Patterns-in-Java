@@ -1,4 +1,4 @@
-package com.company.prototype;
+package com.company.creational.prototype;
 
 
 import java.util.Date;

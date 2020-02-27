@@ -1,11 +1,11 @@
-package com.company.prototype;
+package com.company.creational.prototype;
 
 import java.util.Date;
 
 
 //in design vase time hast ke ma nemikhaym dobare new konim vase create kardan ye object
 //because sometimes it's expense
-public class Main {
+public class Test {
     public static void main(String[] args) {
         User user = User.getUserBuilder()
                 .setFirstName("name")

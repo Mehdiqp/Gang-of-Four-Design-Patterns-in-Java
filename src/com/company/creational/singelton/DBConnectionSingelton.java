@@ -1,4 +1,4 @@
-package com.company.singelton;
+package com.company.creational.singelton;
 
 public class DBConnectionSingelton {
 

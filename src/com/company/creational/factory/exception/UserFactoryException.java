@@ -1,4 +1,4 @@
-package com.company.factory.exception;
+package com.company.creational.factory.exception;
 
 public class UserFactoryException extends Exception {
     public UserFactoryException() {
